@@ -1,4 +1,4 @@
-# copy file name 
+# copy file name
 
 Copy file name of current working file from context menu or command palette.
 
@@ -7,8 +7,12 @@ Copy file name of current working file from context menu or command palette.
 * Copy current file name with file extension from command palette and context menu.
 
 
-\!\[cfn\]\(images/command.png\)
-\!\[cfn\]\(images/context-menu.png\)
+## Screenshots
+
+[Copy from context menu](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/context-menu.png)
+
+[Execute copy command from command palette](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/command.png)
+
 
 ## Known Issues
 
@@ -24,6 +28,6 @@ Alpha release
 
 ## commands
 
-- cfn 
+- cfn
 - cffn
 
