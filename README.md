@@ -1,6 +1,6 @@
-# copy-file-name 
+# copy file name 
 
-This is the README for your extension "copy-file-name". After writing up a brief description, we recommend including the following sections.
+Copy file name of current working file from context menu or command palette.
 
 ## Features
 * Copy current file name from command palette and context menu.
