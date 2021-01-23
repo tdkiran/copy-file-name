@@ -4,9 +4,10 @@ import * as path from 'path';
 export function activate(context: vscode.ExtensionContext) {
 
 	const cfn = vscode.commands.registerCommand('cfn', async () => {
-		await vscode.commands.executeCommand('copyRelativeFilePath');
-		const rPath = await vscode.env.clipboard.readText();
-		const fileName = path.parse(rPath).name;
+		if (!(vscode.window && typeof vscode.window.activeTextEditor !== 'function')) return false;
+		const currentEditor = await vscode.window.activeTextEditor;
+		const fileName = currentEditor ? currentEditor?.document.fileName : null;
+		if (!fileName) return false;
 		await vscode.env.clipboard.writeText(fileName);
 		vscode.window.showInformationMessage(`${fileName} copied!`);
 	});
@@ -25,4 +26,4 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 // this method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() { }

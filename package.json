@@ -2,7 +2,7 @@
   "name": "copy-file-name",
   "displayName": "copy file name",
   "description": "Copy File Names Through  Different Ways",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "images/cfn-logo.png",
   "publisher": "tdkiran",
   "engines": {
