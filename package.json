@@ -10,16 +10,30 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:copy-file-name.helloWorld"
+    "onCommand:cfn",
+    "onCommand:cffn"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "copy-file-name.helloWorld",
-        "title": "Hello World"
+        "command": "cfn",
+        "title": "Copy Current File Name"
+      },
+      {
+        "command": "cffn",
+        "title": "Copy Full File Name (With Extension)"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "when": "resourceLangId == javascript",
+          "command": "cfn",
+          "group": "YourGroup@1"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
