@@ -3,6 +3,7 @@
   "displayName": "copy file name",
   "description": "Copy File Names Through  Different Ways",
   "version": "0.0.2",
+  "icon": "images/cfn-logo.png",
   "publisher": "tdkiran",
   "engines": {
     "vscode": "^1.52.0"
