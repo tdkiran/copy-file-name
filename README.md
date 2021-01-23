@@ -10,7 +10,7 @@ Copy file name of current working file from context menu or command palette.
 ## Screenshots
 ### Copy file name from context menu
 
-![Copy from context menu](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/cfn-from-conext.gif)
+![Copy from context menu](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/cfn-from-context.gif)
 
 ### Copy file name from context menu
 
