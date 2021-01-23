@@ -6,9 +6,6 @@ This is the README for your extension "copy-file-name". After writing up a brief
 * Copy current file name from command palette and context menu.
 * Copy current file name with file extension from command palette and context menu.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
 
 \!\[cfn\]\(images/command.png\)
 \!\[cfn\]\(images/context-menu.png\)
