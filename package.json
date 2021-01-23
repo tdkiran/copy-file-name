@@ -3,7 +3,7 @@
   "displayName": "copy file name",
   "description": "Copy File Names Through  Different Ways",
   "version": "0.0.1",
-  "publisher": "tdkirandev",
+  "publisher": "tdkiran",
   "engines": {
     "vscode": "^1.52.0"
   },
