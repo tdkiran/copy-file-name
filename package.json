@@ -10,6 +10,7 @@
   "categories": [
     "Other"
   ],
+  "repository": "https://github.com/tdkiran/copy-file-name",
   "activationEvents": [
     "onCommand:cfn",
     "onCommand:cffn"
