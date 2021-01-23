@@ -1,4 +1,4 @@
-# copy-file-name README
+# copy-file-name 
 
 This is the README for your extension "copy-file-name". After writing up a brief description, we recommend including the following sections.
 
