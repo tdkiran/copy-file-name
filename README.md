@@ -8,11 +8,13 @@ Copy file name of current working file from context menu or command palette.
 
 
 ## Screenshots
+### Copy file name from context menu
 
-[Copy from context menu](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/context-menu.png)
+![Copy from context menu](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/context-menu.png)
 
-[Execute copy command from command palette](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/command.png)
+### Copy file name from context menu
 
+![Execute copy command from command palette](https://raw.githubusercontent.com/tdkiran/copy-file-name/master/images/command.png)
 
 ## Known Issues
 
